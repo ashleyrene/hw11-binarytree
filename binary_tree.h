@@ -13,11 +13,6 @@ typedef struct TreeNode {
     struct TreeNode* right;
 } TreeNode;
 
-// ***
-// *** Modify this file
-// ***
-// Add your helper functions here.
-
 TreeNode* createNode(int data);
 TreeNode* createTree(int* arr, int size);
 void inorderTraversal(TreeNode* root);
@@ -27,3 +22,4 @@ TreeNode* trimTree(TreeNode* root, int low, int high);
 TreeNode* toBST(TreeNode* root);
 
 #endif // BINARY_TREE_H
+
